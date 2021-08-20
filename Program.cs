@@ -12,11 +12,12 @@ void Main()
     MooseSays("H I, I'M  E N T H U S I A S T I C !");
     MooseSays("Seriously though, I'm freakin PUMPED");
 
-    // As a question
-    CanadaQuestion();
-    EnthusiasticQuestion();
-    LoveCSharpQuestion();
-    SecretQuestion();
+    // Ask a question
+    MooseQuestion("Is Canada real?", "Really? It seems very unlikely.", "I  K N E W  I T !!!");
+    MooseQuestion("Are you enthusiastic?", "Yay!", "You should try it!");
+    MooseQuestion("Do you love C# yet?", "Good job sucking up to your instructor!", "You will...oh, yes, you will...");
+    MooseQuestion("Do you want to know a secret?", "ME TOO!!!! I love secrets...tell me one!", 
+                    "Oh, no...secrets are the best, I love to share them!");
 }
 
 
@@ -87,24 +88,5 @@ void MooseQuestion(string question, string yesAnswer, string noAnswer)
     }
 }
 
-void CanadaQuestion()
-{
-    MooseQuestion("Is Canada real?", "Really? It seems very unlikely.", "I  K N E W  I T !!!");
-}
-
-void EnthusiasticQuestion()
-{
-    MooseQuestion("Are you enthusiastic?", "Yay!", "You should try it!");
-}
-
-void LoveCSharpQuestion()
-{
-    MooseQuestion("Do you love C# yet?", "Good job sucking up to your instructor!", "You will...oh, yes, you will...");
-}
-
-void SecretQuestion()
-{
-    MooseQuestion("Do you want to know a secret?", "ME TOO!!!! I love secrets...tell me one!", "Oh, no...secrets are the best, I love to share them!");
-}
 
 
